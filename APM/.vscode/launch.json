@@ -9,7 +9,7 @@
 			// Type of configuration. Possible values: "node", "mono".
 			"type": "node",
 			// Workspace relative or absolute path to the program.
-			"program": "app.js",
+			"program": "./app/app.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
 			// Command line arguments passed to the program.
@@ -25,7 +25,7 @@
 				"NODE_ENV": "development"
 			},
 			// Use JavaScript source maps (if they exist).
-			"sourceMaps": false,
+			"sourceMaps": true,
 			// If JavaScript source maps are enabled, the generated code is expected in this directory.
 			"outDir": null
 		},
@@ -35,7 +35,7 @@
 			// TCP/IP address. Default is "localhost".
 			"address": "localhost",
 			// Port to attach to.
-			"port": 5858,
+			"port": 8080,
 			"sourceMaps": false
 		}
 	]
